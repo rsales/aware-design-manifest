@@ -1,18 +1,457 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="PageHeader PageHeader--tertiary">
+      <div class="Grid">
+        <div class="PageHeader-Content">
+          <h1 class="PageHeader-Title">
+            Creative Difference: A Customized Guide to a More Innovative and
+            Adaptive Culture
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="InlineContent undefined">
+      <div class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <p>
+                Apesar de vivermos na era digital, o MethodKit para Desenvolver
+                Equipes é uma ferramenta analógica. Ele foi desenvolvida para
+                ajudar a estruturar e organizar o trabalho em equipe, de maneira
+                a ter mais eficácia, criatividade e resultados. O kit, composto
+                por vários cartões, pode ser usado de diversas maneiras – num
+                workshop de inauguração de projeto, em reflexões com a equipe,
+                sessões de coaching e muito mais. Esta ferramenta reúne o
+                essencial para ter e elaborar ideias, servindo de base para
+                fomentar a criatividade. A criação fica por sua conta.
+              </p>
+              <p>
+                IDEO Creative Difference harnesses this expertise by assessing
+                and guiding organizations in developing their own creative
+                competitiveness. The data-driven insights from Creative
+                Difference orient leaders towards action and uncover strengths
+                and improvement areas across all levels of their organization.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="VideoBlock VideoBlock--inline VideoBlock--wide">
+        <div class="VideoBlock-ParagraphContainer"><span>&nbsp;</span></div>
+        <div class="VideoBlock-VideoContainer">
+          <div class="VideoBlock-Video">
+            <div style="width:100%;height:100%">
+              <div style="width:100%;height:100%">
+                <iframe
+                  frameborder="0"
+                  allowfullscreen="1"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  title="YouTube video player"
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/FF3WtD70IAI?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
+                  id="widget2"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <p>
+                Starting with a 15-20 minute assessment shared across any number
+                of teams or business units, Creative Difference looks at the
+                culture, behaviors, processes, and knowledge sharing across the
+                organization. The resulting insights are compiled into a simple
+                and intuitive online dashboard, which allows leaders to see how
+                their organization compares with other innovative organizations,
+                choose which proven actions they will take to improve their
+                organization, and track how their actions have impacted their
+                organization over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
+        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
+          <div class="ImageBlock-ImageContainer">
+            <div class="SmartImage SmartImage--inline ImageBlock-Image">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                playsinline=""
+                class="SmartImage--inline-Image"
+                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
+                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <p>
+                Teams that exhibit competency across our six creative qualities
+                are more than three times as likely to achieve successful
+                outcomes when tackling tough challenges. Organizations like
+                Intercorp, a conglomerate of 30 companies in Peru, have used C∆
+                to improve their own innovation capabilities and to track this
+                improvement over time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="QuoteBlock QuoteBlock--NoImage">
+        <div class="Grid">
+          <div class="QuoteBlock-Content">
+            <div class="QuoteBlock-Text">
+              <span
+                ><p>
+                  <em
+                    >Creative Difference is our master tool to maximize the
+                    creativity of our 58,000 employees, and track how our 29
+                    companies evolve year after year. It is measurable,
+                    scalable, and extremely actionable.</em
+                  >
+                </p></span
+              >
+            </div>
+            <div class="QuoteBlock-Author">
+              <span
+                ><p>
+                  Hernan Carranza, Chief Innovation Officer,
+                  <a
+                    href="https://www.ideo.com/case-study/launching-an-innovation-lab-to-benefit-peruvians"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >Intercorp</a
+                  >
+                </p></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <p>
+                To learn more about using Creative Difference in your
+                organization, check out our
+                <a
+                  href="http://creativedifference.ideo.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >website</a
+                >, find us on
+                <a
+                  href="https://www.facebook.com/IDEOCreativeDifference/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Facebook</a
+                >
+                and
+                <a
+                  href="https://twitter.com/ideo_cd"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >Twitter</a
+                >, or drop us a line at
+                <a
+                  href="mailto:hello@ideocreativedifference.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >hello@ideocreativedifference.com</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
+  name: "Home"
 };
 </script>
+
+<style lang="scss">
+.PageHeader {
+  padding-top: 100px;
+  text-align: left;
+}
+.Grid {
+  display: flex;
+}
+.PageHeader-Content {
+  width: 85%;
+}
+.PageHeader-Title {
+  font-size: 130px;
+  letter-spacing: -6px;
+  line-height: 130px;
+  color: #000;
+}
+.TextStyles {
+  box-sizing: border-box;
+  width: 100%;
+}
+.TextStyles p {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  color: #262c30;
+  margin-bottom: 32px;
+}
+
+.TextBlock p {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+}
+.TextBlock .Grid {
+  padding: 0;
+  margin: 0;
+}
+.InlineContent {
+  padding-top: 80px;
+}
+.VideoBlock {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.VideoBlock.VideoBlock--inline .VideoBlock-VideoContainer {
+  margin: 0 auto;
+  width: 60%;
+}
+.VideoBlock .VideoBlock-Video {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 55px;
+  width: 100%;
+  height: 500px;
+}
+.ImageBlock--wide {
+  display: flex;
+  align-items: flex-start;
+}
+.ImageBlock {
+  padding-top: 32px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+.ImageBlock--wide .ImageBlock-InlineItemsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1;
+  width: 100%;
+}
+.ImageBlock--wide.ImageBlockModifyer--center
+  .ImageBlock--NoCaption
+  .ImageBlock-ImageContainer {
+  order: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ImageBlock .ImageBlock-Image {
+  cursor: pointer;
+}
+.SmartImage--inline {
+  background-size: 100% 100%;
+  position: static;
+}
+.SmartImage {
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.SmartImage--inline-Image {
+  display: block;
+  height: 500px;
+  width: auto;
+}
+.QuoteBlock {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.QuoteBlock .Grid {
+  margin: 0 8.33333%;
+  padding: 0;
+  width: auto;
+}
+.QuoteBlock-Content {
+  flex: 11 1;
+  border-left: 5px solid;
+  padding-left: 50px;
+  padding-bottom: 0;
+  background: none;
+}
+.QuoteBlock-Text {
+  text-transform: none;
+  font-style: italic;
+}
+.QuoteBlock-Text:before {
+  text-transform: none;
+  font-style: italic;
+  content: "\201C";
+  position: absolute;
+  margin-left: -16px;
+}
+.QuoteBlock-Text p {
+  display: inline;
+  line-height: 41px;
+}
+.QuoteBlock-Text:after {
+  text-transform: none;
+  font-style: italic;
+  margin-left: 3.2px;
+  content: "\201D";
+}
+.TextBlock:last-child {
+  padding-bottom: 32px;
+}
+.QuoteBlock-Author {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #a2aeb6;
+  padding-top: 22.4px;
+}
+
+@media (min-width: 90em) {
+  .Grid {
+    max-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .PageHeader--tertiary .PageHeader-Title {
+    font-size: 90px;
+    line-height: 95px;
+    letter-spacing: -5px;
+  }
+  .PageHeader-Title {
+    padding-right: 25%;
+  }
+  .QuoteBlock-Text {
+    font-size: 38px;
+    line-height: 47px;
+    letter-spacing: -1.5px;
+  }
+  .QuoteBlock-Text:before {
+    font-size: 38px;
+    line-height: 47px;
+    letter-spacing: -1.5px;
+  }
+  .QuoteBlock-Text:after {
+    font-size: 38px;
+    line-height: 47px;
+    letter-spacing: -1.5px;
+  }
+}
+@media (max-width: 89.99em) and (min-width: 73.75em) {
+  .PageHeader--tertiary .PageHeader-Title {
+    font-size: 90px;
+    line-height: 95px;
+    letter-spacing: -5px;
+  }
+}
+@media (max-width: 89.99em) and (min-width: 50em) {
+  .Grid {
+    max-width: 1180px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 73.74em) and (min-width: 50em) {
+  .PageHeader--tertiary .PageHeader-Title {
+    font-size: 80px;
+    line-height: 85px;
+    letter-spacing: -5px;
+  }
+}
+@media (min-width: 50em) {
+  .TextBlock {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .QuoteBlock .Grid {
+    margin: 0 25%;
+  }
+  .QuoteBlock-Text:before {
+    margin-left: -22.4px;
+  }
+  .TextBlock {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .TextBlock .TextBlock-Content {
+    flex: 12 1;
+  }
+}
+@media (max-width: 49.99em) {
+  .Grid {
+    flex-direction: column;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .QuoteBlock .Grid {
+    margin: 0 25%;
+  }
+  .InlineContent {
+    padding-top: 40px;
+  }
+  .TextBlock .TextBlock-Content {
+    margin-left: 8.33333%;
+    margin-right: 8.33333%;
+  }
+}
+@media (max-width: 49.99em) and (min-width: 34.375em) {
+  .PageHeader-Content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .PageHeader--tertiary .PageHeader-Title {
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -3px;
+  }
+}
+@media (max-width: 34.365em) {
+  .PageHeader {
+    padding-top: 60px;
+  }
+  .PageHeader-Content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .PageHeader--tertiary .PageHeader-Title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -2px;
+  }
+  .TextBlock p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
+</style>
