@@ -4,7 +4,8 @@
       <div class="Grid">
         <div class="PageHeader-Content">
           <h1 class="PageHeader-Title">
-            Connecting Teams: Um guia para uma cultura mais amiga e sustentável.
+            Connecting Teams: Um guia para uma cultura mais próxima, inovadora e
+            sustentável.
           </h1>
         </div>
       </div>
@@ -351,6 +352,11 @@ export default {
     line-height: 95px;
     letter-spacing: -5px;
   }
+  .QuoteBlock-Text {
+    font-size: 33px;
+    line-height: 42px;
+    letter-spacing: -1.2px;
+  }
 }
 @media (max-width: 89.99em) and (min-width: 50em) {
   .Grid {
@@ -386,6 +392,11 @@ export default {
   .TextBlock .TextBlock-Content {
     flex: 12 1;
   }
+  .QuoteBlock-Text {
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: -1px;
+  }
 }
 @media (max-width: 49.99em) {
   .Grid {
@@ -415,6 +426,11 @@ export default {
     line-height: 65px;
     letter-spacing: -3px;
   }
+  .QuoteBlock-Text {
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: -1px;
+  }
 }
 @media (max-width: 34.365em) {
   .PageHeader {
@@ -432,6 +448,30 @@ export default {
   .TextBlock p {
     font-size: 15px;
     line-height: 27px;
+  }
+  .QuoteBlock .Grid {
+    margin: 0 8.33333%;
+    padding: 0;
+    width: auto;
+  }
+  .QuoteBlock {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .QuoteBlock-Text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -.5px;
+  }
+  .QuoteBlock-Text:before {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -.5px;
+  }
+  .QuoteBlock-Text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -.5px;
   }
 }
 </style>

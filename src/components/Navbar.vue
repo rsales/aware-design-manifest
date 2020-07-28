@@ -131,7 +131,7 @@ nav {
 
 .container {
   margin: auto;
-  width: 80%;
+  width: 92%;
 }
 
 .badge {
