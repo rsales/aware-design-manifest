@@ -171,6 +171,9 @@ export default {
 </script>
 
 <style lang="scss">
+$main-color: #6394f8;
+$light-text: #abb0be;
+
 .PageHeader {
   padding-top: 100px;
   text-align: left;
@@ -276,7 +279,7 @@ export default {
 }
 .QuoteBlock-Content {
   flex: 11 1;
-  border-left: 5px solid;
+  border-left: $main-color 5px solid;
   padding-left: 50px;
   padding-bottom: 0;
   background: none;
@@ -291,6 +294,7 @@ export default {
   content: "\201C";
   position: absolute;
   margin-left: -16px;
+  color: $main-color;
 }
 .QuoteBlock-Text p {
   display: inline;
@@ -301,6 +305,7 @@ export default {
   font-style: italic;
   margin-left: 3.2px;
   content: "\201D";
+  color: $main-color;
 }
 .TextBlock:last-child {
   padding-bottom: 32px;

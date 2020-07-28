@@ -74,11 +74,8 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 $main-color: #6394f8;
 $light-text: #abb0be;
-
 .navbar {
   position: fixed;
   width: 100%;
