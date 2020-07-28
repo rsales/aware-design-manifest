@@ -4,8 +4,7 @@
       <div class="Grid">
         <div class="PageHeader-Content">
           <h1 class="PageHeader-Title">
-            Creative Difference: A Customized Guide to a More Innovative and
-            Adaptive Culture
+            Connecting Teams: Um guia para uma cultura mais amiga e sustentável.
           </h1>
         </div>
       </div>
