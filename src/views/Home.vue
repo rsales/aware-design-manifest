@@ -18,21 +18,23 @@
             <div class="Text TextStyles">
               <p>
                 Apesar de vivermos na era digital, o MethodKit para Desenvolver
-                Equipes é uma ferramenta analógica. Ele foi desenvolvida para
-                ajudar a estruturar e organizar o trabalho em equipe, de maneira
-                a ter mais eficácia, criatividade e resultados. O kit, composto
-                por vários cartões, pode ser usado de diversas maneiras – num
-                workshop de inauguração de projeto, em reflexões com a equipe,
-                sessões de coaching e muito mais. Esta ferramenta reúne o
-                essencial para ter e elaborar ideias, servindo de base para
-                fomentar a criatividade. A criação fica por sua conta.
+                Equipes é uma ferramenta analógica e digital. Ele foi
+                desenvolvida para ajudar a estruturar e organizar o trabalho em
+                equipe, de maneira a ter mais eficácia, criatividade e
+                resultados. O kit, composto por vários cartões, pode ser usado
+                de diversas maneiras – num workshop de inauguração de projeto,
+                em reflexões com a equipe, sessões de coaching e muito mais.
+                Esta ferramenta reúne o essencial para ter e elaborar ideias,
+                servindo de base para fomentar a criatividade. A criação fica
+                por sua conta.
               </p>
               <p>
-                IDEO Creative Difference harnesses this expertise by assessing
-                and guiding organizations in developing their own creative
-                competitiveness. The data-driven insights from Creative
-                Difference orient leaders towards action and uncover strengths
-                and improvement areas across all levels of their organization.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum doloribus exercitationem consequuntur inventore
+                facilis nisi. Saepe reiciendis quasi impedit cum, assumenda,
+                nesciunt labore tempore qui nobis deserunt est maxime autem.
+                Voluptatum doloribus exercitationem consequuntur inventore
+                facilis nisi.
               </p>
             </div>
           </div>
@@ -51,7 +53,7 @@
                   title="YouTube video player"
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/FF3WtD70IAI?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
+                  src="https://www.youtube.com/embed/a9HjbSAK1qs?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
                   id="widget2"
                 ></iframe>
               </div>
@@ -241,7 +243,7 @@ export default {
 .VideoBlock .VideoBlock-Video {
   position: relative;
   overflow: hidden;
-  padding-bottom: 55px;
+  padding-bottom: 0;
   width: 100%;
   height: 500px;
 }
