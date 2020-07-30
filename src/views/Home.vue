@@ -28,7 +28,9 @@
           </div>
 
           <article class="slide__content">
-            <h2 class="slide__headline">{{ item.headline }}</h2>
+            <h2 :class="`slide__headline text-${item.color}`">
+              {{ item.headline }}
+            </h2>
             <button>
               <router-link class="slide__action btn" :to="{ name: item.to }">
                 {{ item.button }}
@@ -77,21 +79,24 @@ export default {
           headline: "Manifesto Design Ciente",
           button: "VER MANIFESTO",
           to: "Manifest",
-          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg"
+          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg",
+          color: "white"
         },
         {
           index: 1,
           headline: "CT Connecting Teams",
           button: "VER MAIS",
           to: "Method",
-          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg"
+          src: require("@/assets/images/mockup-1.jpg"),
+          color: "white"
         },
         {
           index: 2,
           headline: "Fazer parte dessa Inovação",
           button: "COMPRAR KIT",
           to: "Shop",
-          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg"
+          src: require("@/assets/images/mockup-card-1.jpg"),
+          color: "black"
         }
       ]
     };
@@ -337,9 +342,11 @@ h3 {
 }
 
 .slide__headline {
-  font-size: 8vmin;
+  font-size: 8.5vmin;
   font-weight: 600;
   position: relative;
+  line-height: 63px;
+  margin-bottom: 20px;
 }
 
 .slide__content {
