@@ -38,13 +38,22 @@
         </li>
       </ul>
       <div class="slider__controls">
-        <button class="btn btn--previous" title="Go to previous slide">
+        <button
+          class="btn btn--previous"
+          title="Go to previous slide"
+          @click="handlePreviousClick()"
+        >
           <svg class="icon" viewBox="0 0 24 24">
             <path
               d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
             ></path>
-          </svg></button
-        ><button class="btn btn--next" title="Go to next slide">
+          </svg>
+        </button>
+        <button
+          class="btn btn--next"
+          title="Go to next slide"
+          @click="handleNextClick()"
+        >
           <svg class="icon" viewBox="0 0 24 24">
             <path
               d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
@@ -86,6 +95,22 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    handlePreviousClick() {
+      if (this.current > 0) {
+        this.current = this.current - 1;
+      } else {
+        this.current = this.slideData.length - 1;
+      }
+    },
+    handleNextClick() {
+      if (this.current < this.slideData.length - 1) {
+        this.current = this.current + 1;
+      } else {
+        this.current = 0;
+      }
+    }
   }
 };
 </script>
