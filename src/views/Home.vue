@@ -1,164 +1,109 @@
 <template>
-  <div class="home">
-    <div class="PageHeader PageHeader--tertiary">
-      <div class="Grid">
-        <div class="PageHeader-Content">
-          <h1 class="PageHeader-Title">
-            Connecting Teams: Um guia para uma cultura mais próxima, inovadora e
-            sustentável.
-          </h1>
-        </div>
-      </div>
-    </div>
+  <div id="home">
+    <div class="slider" aria-labelledby="slider-heading__example-slider">
+      <ul
+        class="slider__wrapper"
+        :style="
+          `transform: translateX(-${current * (100 / slideData.length)}%);`
+        "
+      >
+        <li
+          v-for="(item, index) in slideData"
+          :key="`slide_key_${index}`"
+          class="slide"
+          :class="{
+            'slide--current': index === current,
+            'slide--next': index === current + 1,
+            'slide--previous': index === current - 1
+          }"
+          style="--x:0; --y:0;"
+        >
+          <div class="slide__image-wrapper">
+            <img
+              class="slide__image"
+              :alt="item.headline"
+              :src="item.src"
+              style="opacity: 1;"
+            />
+          </div>
 
-    <div class="InlineContent undefined">
-      <div class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Apesar de vivermos na era digital, o MethodKit para Desenvolver
-                Equipes é uma ferramenta analógica e digital. Ele foi
-                desenvolvida para ajudar a estruturar e organizar o trabalho em
-                equipe, de maneira a ter mais eficácia, criatividade e
-                resultados. O kit, composto por vários cartões, pode ser usado
-                de diversas maneiras – num workshop de inauguração de projeto,
-                em reflexões com a equipe, sessões de coaching e muito mais.
-                Esta ferramenta reúne o essencial para ter e elaborar ideias,
-                servindo de base para fomentar a criatividade. A criação fica
-                por sua conta.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum doloribus exercitationem consequuntur inventore
-                facilis nisi. Saepe reiciendis quasi impedit cum, assumenda,
-                nesciunt labore tempore qui nobis deserunt est maxime autem.
-                Voluptatum doloribus exercitationem consequuntur inventore
-                facilis nisi.
-              </p>
-            </div>
+          <article class="slide__content">
+            <h2 class="slide__headline">{{ item.headline }}</h2>
+            <button>
+              <router-link class="slide__action btn" :to="{ name: item.to }">
+                {{ item.button }}
+              </router-link>
+            </button>
+          </article>
+        </li>
+        <!-- <li class="slide slide--current" style="--x:0; --y:0;">
+          <div class="slide__image-wrapper">
+            <img
+              class="slide__image"
+              alt="New Fashion Apparel"
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg"
+              style="opacity: 1;"
+            />
           </div>
-        </div>
-      </div>
-      <div class="VideoBlock VideoBlock--inline VideoBlock--wide">
-        <div class="VideoBlock-ParagraphContainer"><span>&nbsp;</span></div>
-        <div class="VideoBlock-VideoContainer">
-          <div class="VideoBlock-Video">
-            <div style="width:100%;height:100%">
-              <div style="width:100%;height:100%">
-                <iframe
-                  frameborder="0"
-                  allowfullscreen="1"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  title="YouTube video player"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/a9HjbSAK1qs?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
-                  id="widget2"
-                ></iframe>
-              </div>
-            </div>
+
+          <article class="slide__content">
+            <h2 class="slide__headline">Manifesto Design Ciente</h2>
+            <button>
+              <router-link class="slide__action btn" :to="{ name: 'Manifest' }">
+                VER MANIFESTO
+              </router-link>
+            </button>
+          </article>
+        </li>
+        <li class="slide" style="--x:0; --y:0;">
+          <div class="slide__image-wrapper">
+            <img
+              class="slide__image"
+              alt="In The Wilderness"
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg"
+              style="opacity: 1;"
+            />
           </div>
-        </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                odio ligula, ornare non urna id, pellentesque elementum mauris.
-                Vestibulum sapien ipsum, luctus quis semper commodo, pulvinar
-                eget risus. Quisque vel neque libero. Duis posuere est luctus
-                fringilla accumsan. Vestibulum varius bibendum ipsum, nec
-                venenatis velit elementum nec. Nulla tempus diam quis elit
-                tincidunt, quis convallis massa gravida. Morbi sagittis commodo
-                sapien, vel pharetra elit luctus id. Phasellus convallis
-                interdum orci a finibus. Proin maximus ante sit amet ultricies
-                imperdiet. Quisque ac ipsum eros. Morbi pretium porttitor
-                consequat. Sed tempus pellentesque velit non.
-              </p>
-            </div>
+
+          <article class="slide__content">
+            <h2 class="slide__headline">CT Connecting Teams</h2>
+            <button>
+              <router-link class="slide__action btn" :to="{ name: 'Manifest' }">
+                VER MANIFESTO
+              </router-link>
+            </button>
+          </article>
+        </li>
+        <li class="slide" style="--x:0; --y:0;">
+          <div class="slide__image-wrapper">
+            <img
+              class="slide__image"
+              alt="For Your Current Mood"
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg"
+              style="opacity: 1;"
+            />
           </div>
-        </div>
-      </div>
-      <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
-        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
-          <div class="ImageBlock-ImageContainer">
-            <div class="SmartImage SmartImage--inline ImageBlock-Image">
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="SmartImage--inline-Image"
-                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
-                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
-              ></video>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse tincidunt dui luctus odio congue vestibulum.
-                Vestibulum volutpat risus vitae tellus varius facilisis. Ut
-                scelerisque est turpis, a euismod enim tincidunt in. Proin
-                pharetra nulla vel mi hendrerit aliquet. Curabitur vitae ex
-                congue, ullamcorper leo tristique, efficitur ligula. Vestibulum
-                molestie ipsum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="QuoteBlock QuoteBlock--NoImage">
-        <div class="Grid">
-          <div class="QuoteBlock-Content">
-            <div class="QuoteBlock-Text">
-              <span>
-                <p>
-                  <em>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer a convallis ex. Pellentesque convallis arcu id
-                    consequat consequat. Fusce ornare semper egestas. Donec vel
-                    ornare tellus. Cras feugiat tincidunt gravida. Aliquam.
-                  </em>
-                </p>
-              </span>
-            </div>
-            <div class="QuoteBlock-Author">
-              <span>
-                <p>
-                  Hernan Carranza, Chief Innovation Officer,
-                  <a
-                    href="https://www.ideo.com/case-study/launching-an-innovation-lab-to-benefit-peruvians"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    >Intercorp
-                  </a>
-                </p>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur mollis purus diam, id sagittis leo malesuada sed. Sed
-                quis vulputate justo. Maecenas ipsum nisl, lobortis eget sem.
-              </p>
-            </div>
-          </div>
-        </div>
+
+          <article class="slide__content">
+            <h2 class="slide__headline">For Your Current Mood</h2>
+            <button class="slide__action btn">COMPRAR</button>
+          </article>
+        </li> -->
+      </ul>
+      <div class="slider__controls">
+        <button class="btn btn--previous" title="Go to previous slide">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            ></path>
+          </svg></button
+        ><button class="btn btn--next" title="Go to next slide">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path
+              d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
+            ></path>
+          </svg>
+        </button>
       </div>
     </div>
   </div>
@@ -166,317 +111,302 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  data() {
+    return {
+      current: 1,
+      slideData: [
+        {
+          index: 0,
+          headline: "Manifesto Design Ciente",
+          button: "VER MANIFESTO",
+          to: "Manifest",
+          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg"
+        },
+        {
+          index: 1,
+          headline: "CT Connecting Teams",
+          button: "VER MAIS",
+          to: "Method",
+          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg"
+        },
+        {
+          index: 2,
+          headline: "Fazer parte dessa Inovação",
+          button: "COMPRAR KIT",
+          to: "Shop",
+          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg"
+        }
+      ]
+    };
+  }
 };
 </script>
 
 <style lang="scss">
-$main-color: #6394f8;
-$light-text: #abb0be;
+// =========================
+// Global
+// =========================
 
-.PageHeader {
-  padding-top: 100px;
-  text-align: left;
-}
-.Grid {
+#home {
+  align-items: center;
   display: flex;
-}
-.PageHeader-Content {
-  width: 85%;
-}
-.PageHeader-Title {
-  font-size: 130px;
-  letter-spacing: -6px;
-  line-height: 130px;
-  color: #000;
-}
-.TextStyles {
-  box-sizing: border-box;
+  height: 100%;
+  justify-content: center;
+  overflow-x: hidden;
   width: 100%;
 }
-.TextStyles p {
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: -0.5px;
-  color: #262c30;
-  margin-bottom: 32px;
+
+h1,
+h2,
+h3 {
+  font-family: "Lora", serif;
 }
 
-.TextBlock p {
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: -0.5px;
-}
-.TextBlock .Grid {
-  padding: 0;
-  margin: 0;
-}
-.InlineContent {
-  padding-top: 80px;
-}
-.VideoBlock {
-  padding-top: 32px;
-  padding-bottom: 64px;
-}
-.VideoBlock.VideoBlock--inline .VideoBlock-VideoContainer {
-  margin: 0 auto;
-  width: 60%;
-}
-.VideoBlock .VideoBlock-Video {
-  position: relative;
+.visuallyhidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
   overflow: hidden;
-  padding-bottom: 0;
-  width: 100%;
-  height: 500px;
-}
-.ImageBlock--wide {
-  display: flex;
-  align-items: flex-start;
-}
-.ImageBlock {
-  padding-top: 32px;
-  padding-bottom: 64px;
-  width: 100%;
-}
-.ImageBlock--wide .ImageBlock-InlineItemsContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex: 1 1;
-  width: 100%;
-}
-.ImageBlock--wide.ImageBlockModifyer--center
-  .ImageBlock--NoCaption
-  .ImageBlock-ImageContainer {
-  order: 1;
-  margin-right: auto;
-  margin-left: auto;
-}
-.ImageBlock .ImageBlock-Image {
-  cursor: pointer;
-}
-.SmartImage--inline {
-  background-size: 100% 100%;
-  position: static;
-}
-.SmartImage {
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-.SmartImage--inline-Image {
-  display: block;
-  height: 500px;
-  width: auto;
-}
-.QuoteBlock {
-  padding-top: 32px;
-  padding-bottom: 64px;
-}
-.QuoteBlock .Grid {
-  margin: 0 8.33333%;
-  padding: 0;
-  width: auto;
-}
-.QuoteBlock-Content {
-  flex: 11 1;
-  border-left: $main-color 5px solid;
-  padding-left: 50px;
-  padding-bottom: 0;
-  background: none;
-}
-.QuoteBlock-Text {
-  text-transform: none;
-  font-style: italic;
-}
-.QuoteBlock-Text:before {
-  text-transform: none;
-  font-style: italic;
-  content: "\201C";
-  position: absolute;
-  margin-left: -16px;
-  color: $main-color;
-}
-.QuoteBlock-Text p {
-  display: inline;
-  line-height: 41px;
-}
-.QuoteBlock-Text:after {
-  text-transform: none;
-  font-style: italic;
-  margin-left: 3.2px;
-  content: "\201D";
-  color: $main-color;
-}
-.TextBlock:last-child {
-  padding-bottom: 32px;
-}
-.QuoteBlock-Author {
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #a2aeb6;
-  padding-top: 22.4px;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
 }
 
-@media (min-width: 90em) {
-  .Grid {
-    max-width: 1180px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
+// =========================
+// Icons
+// =========================
+
+.icon {
+  fill: var(--color-primary);
+  width: 100%;
+}
+
+// =========================
+// Buttons
+// =========================
+
+.btn {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0.125rem;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1rem 2.5rem 1.125rem;
+  font-family: "lato", serif;
+
+  &:focus {
+    outline-color: var(--color-focus);
+    outline-offset: 2px;
+    outline-style: solid;
+    outline-width: 3px;
   }
-  .PageHeader--tertiary .PageHeader-Title {
-    font-size: 90px;
-    line-height: 95px;
-    letter-spacing: -5px;
-  }
-  .PageHeader-Title {
-    padding-right: 25%;
-  }
-  .QuoteBlock-Text {
-    font-size: 38px;
-    line-height: 47px;
-    letter-spacing: -1.5px;
-  }
-  .QuoteBlock-Text:before {
-    font-size: 38px;
-    line-height: 47px;
-    letter-spacing: -1.5px;
-  }
-  .QuoteBlock-Text:after {
-    font-size: 38px;
-    line-height: 47px;
-    letter-spacing: -1.5px;
+
+  &:active {
+    transform: translateY(1px);
   }
 }
-@media (max-width: 89.99em) and (min-width: 73.75em) {
-  .PageHeader--tertiary .PageHeader-Title {
-    font-size: 90px;
-    line-height: 95px;
-    letter-spacing: -5px;
-  }
-  .QuoteBlock-Text {
-    font-size: 33px;
-    line-height: 42px;
-    letter-spacing: -1.2px;
-  }
-}
-@media (max-width: 89.99em) and (min-width: 50em) {
-  .Grid {
-    max-width: 1180px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media (max-width: 73.74em) and (min-width: 50em) {
-  .PageHeader--tertiary .PageHeader-Title {
-    font-size: 80px;
-    line-height: 85px;
-    letter-spacing: -5px;
-  }
-}
-@media (min-width: 50em) {
-  .TextBlock {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  .QuoteBlock .Grid {
-    margin: 0 25%;
-  }
-  .QuoteBlock-Text:before {
-    margin-left: -22.4px;
-  }
-  .TextBlock {
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  .TextBlock .TextBlock-Content {
-    flex: 12 1;
-  }
-  .QuoteBlock-Text {
-    font-size: 26px;
-    line-height: 37px;
-    letter-spacing: -1px;
-  }
-}
-@media (max-width: 49.99em) {
-  .Grid {
-    flex-direction: column;
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .QuoteBlock .Grid {
-    margin: 0 25%;
-  }
-  .InlineContent {
-    padding-top: 40px;
-  }
-  .TextBlock .TextBlock-Content {
-    margin-left: 8.33333%;
-    margin-right: 8.33333%;
-  }
-}
-@media (max-width: 49.99em) and (min-width: 34.375em) {
-  .PageHeader-Content {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .PageHeader--tertiary .PageHeader-Title {
-    font-size: 60px;
-    line-height: 65px;
-    letter-spacing: -3px;
-  }
-  .QuoteBlock-Text {
-    font-size: 26px;
-    line-height: 37px;
-    letter-spacing: -1px;
-  }
-}
-@media (max-width: 34.365em) {
-  .PageHeader {
-    padding-top: 60px;
-  }
-  .PageHeader-Content {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .PageHeader--tertiary .PageHeader-Title {
-    font-size: 40px;
-    line-height: 48px;
-    letter-spacing: -2px;
-  }
-  .TextBlock p {
-    font-size: 15px;
-    line-height: 27px;
-  }
-  .QuoteBlock .Grid {
-    margin: 0 8.33333%;
+
+// =========================
+// Slider controls
+// =========================
+
+.slider__controls {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: calc(100% + 1rem);
+  width: 100%;
+
+  .btn {
+    --size: 3rem;
+
+    align-items: center;
+    background-color: transparent;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    display: flex;
+    height: var(--size);
     padding: 0;
-    width: auto;
+    width: var(--size);
+
+    &:focus {
+      border-color: var(--color-focus);
+      outline: none;
+    }
+
+    &--previous > * {
+      transform: rotate(180deg);
+    }
   }
-  .QuoteBlock {
-    padding-top: 20px;
-    padding-bottom: 30px;
+}
+
+// =========================
+// Slider
+// =========================
+
+.slider {
+  --slide-size: 70vmin;
+  --slide-margin: 4vmin;
+
+  height: var(--slide-size);
+  margin: 0 auto;
+  position: relative;
+  width: var(--slide-size);
+}
+
+.slider__wrapper {
+  display: flex;
+  margin: 0 calc(var(--slide-margin) * -1);
+  position: absolute;
+  transition: transform var(--base-duration) cubic-bezier(0.25, 1, 0.35, 1);
+}
+
+// =========================
+// Slide
+// =========================
+
+.slide {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: var(--slide-size);
+  justify-content: center;
+  margin: 0 var(--slide-margin);
+  opacity: 0.25;
+  position: relative;
+  text-align: center;
+  transition: opacity calc(var(--base-duration) / 2) var(--base-ease),
+    transform calc(var(--base-duration) / 2) var(--base-ease);
+  width: var(--slide-size);
+  z-index: 1;
+
+  &--previous,
+  &--next {
+    &:hover {
+      opacity: 0.5;
+    }
   }
-  .QuoteBlock-Text {
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: -.5px;
+
+  &--previous {
+    cursor: w-resize;
+
+    &:hover {
+      transform: translateX(2%);
+    }
   }
-  .QuoteBlock-Text:before {
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: -.5px;
+
+  &--next {
+    cursor: e-resize;
+
+    &:hover {
+      transform: translateX(-2%);
+    }
   }
-  .QuoteBlock-Text {
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: -.5px;
+}
+
+.slide--current {
+  --x: 0;
+  --y: 0;
+  --d: 50;
+
+  opacity: 1;
+  pointer-events: auto;
+  user-select: auto;
+
+  @media (hover: hover) {
+    &:hover .slide__image-wrapper {
+      transform: scale(1.025)
+        translate(
+          calc(var(--x) / var(--d) * 1px),
+          calc(var(--y) / var(--d) * 1px)
+        );
+    }
+  }
+}
+
+.slide__image-wrapper {
+  background-color: var(--color-accent);
+  border-radius: 1%;
+  height: 100%;
+  left: 0%;
+  overflow: hidden;
+  position: absolute;
+  top: 0%;
+  transition: transform calc(var(--base-duration) / 4) var(--base-ease);
+  width: 100%;
+}
+
+.slide__image {
+  --d: 20;
+
+  height: 110%;
+  left: -5%;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: -5%;
+  transition: opacity var(--base-duration) var(--base-ease),
+    transform var(--base-duration) var(--base-ease);
+  user-select: none;
+  width: 110%;
+
+  @media (hover: hover) {
+    .slide--current & {
+      transform: translate(
+        calc(var(--x) / var(--d) * 1px),
+        calc(var(--y) / var(--d) * 1px)
+      );
+    }
+  }
+}
+
+.slide__headline {
+  font-size: 8vmin;
+  font-weight: 600;
+  position: relative;
+}
+
+.slide__content {
+  --d: 60;
+
+  opacity: 0;
+  padding: 4vmin;
+  position: relative;
+  transition: transform var(--base-duration) var(--base-ease);
+  visibility: hidden;
+
+  .slide--current & {
+    animation: fade-in calc(var(--base-duration) / 2) var(--base-ease) forwards;
+    visibility: visible;
+
+    @media (hover: hover) {
+      transform: translate(
+        calc(var(--x) / var(--d) * -1px),
+        calc(var(--y) / var(--d) * -1px)
+      );
+    }
+  }
+
+  > * + * {
+    margin-top: 2rem;
+  }
+}
+
+// =========================
+// Animations
+// =========================
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 </style>
