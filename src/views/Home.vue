@@ -316,7 +316,6 @@ h3 {
   --d: 20;
 
   height: 110%;
-  left: -5%;
   object-fit: cover;
   opacity: 0;
   pointer-events: none;
@@ -328,12 +327,12 @@ h3 {
   width: 110%;
 
   @media (hover: hover) {
-    .slide--current & {
-      transform: translate(
-        calc(var(--x) / var(--d) * 1px),
-        calc(var(--y) / var(--d) * 1px)
-      );
-    }
+    // .slide--current & {
+    //   transform: translate(
+    //     calc(var(--x) / var(--d) * 1px),
+    //     calc(var(--y) / var(--d) * 1px)
+    //   );
+    // }
   }
 }
 
