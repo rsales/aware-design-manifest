@@ -1,6 +1,12 @@
 <template>
   <div id="home">
     <div class="slider" aria-labelledby="slider-heading__example-slider">
+      <div class="brand__nav">
+        <img
+          alt="connectiong teams"
+          src="@/assets/images/brand/ct_brand_icon.svg"
+        />
+      </div>
       <ul
         class="slider__wrapper"
         :style="
@@ -176,6 +182,22 @@ export default {
 
   &:active {
     transform: translateY(1px);
+  }
+}
+
+// =========================
+// Brand nav
+// =========================
+
+.brand__nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: calc(100% + 1.25rem);
+  width: 100%;
+
+  img {
+    height: 62px;
   }
 }
 
