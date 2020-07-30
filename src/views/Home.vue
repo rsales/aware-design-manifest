@@ -36,59 +36,6 @@
             </button>
           </article>
         </li>
-        <!-- <li class="slide slide--current" style="--x:0; --y:0;">
-          <div class="slide__image-wrapper">
-            <img
-              class="slide__image"
-              alt="New Fashion Apparel"
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg"
-              style="opacity: 1;"
-            />
-          </div>
-
-          <article class="slide__content">
-            <h2 class="slide__headline">Manifesto Design Ciente</h2>
-            <button>
-              <router-link class="slide__action btn" :to="{ name: 'Manifest' }">
-                VER MANIFESTO
-              </router-link>
-            </button>
-          </article>
-        </li>
-        <li class="slide" style="--x:0; --y:0;">
-          <div class="slide__image-wrapper">
-            <img
-              class="slide__image"
-              alt="In The Wilderness"
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/forest.jpg"
-              style="opacity: 1;"
-            />
-          </div>
-
-          <article class="slide__content">
-            <h2 class="slide__headline">CT Connecting Teams</h2>
-            <button>
-              <router-link class="slide__action btn" :to="{ name: 'Manifest' }">
-                VER MANIFESTO
-              </router-link>
-            </button>
-          </article>
-        </li>
-        <li class="slide" style="--x:0; --y:0;">
-          <div class="slide__image-wrapper">
-            <img
-              class="slide__image"
-              alt="For Your Current Mood"
-              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/guitar.jpg"
-              style="opacity: 1;"
-            />
-          </div>
-
-          <article class="slide__content">
-            <h2 class="slide__headline">For Your Current Mood</h2>
-            <button class="slide__action btn">COMPRAR</button>
-          </article>
-        </li> -->
       </ul>
       <div class="slider__controls">
         <button class="btn btn--previous" title="Go to previous slide">
@@ -114,7 +61,7 @@ export default {
   name: "Home",
   data() {
     return {
-      current: 1,
+      current: 0,
       slideData: [
         {
           index: 0,
