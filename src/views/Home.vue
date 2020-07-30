@@ -77,26 +77,26 @@ export default {
         {
           index: 0,
           headline: "Manifesto Design Ciente",
-          button: "VER MANIFESTO",
+          button: "Ver Manifesto",
           to: "Manifest",
-          src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/fashion.jpg",
-          color: "white"
+          src: require("@/assets/images/manifest-image.jpg"),
+          color: "black"
         },
         {
           index: 1,
-          headline: "CT Connecting Teams",
-          button: "VER MAIS",
+          headline: "Connecting Teams",
+          button: "Ver Método",
           to: "Method",
-          src: require("@/assets/images/mockup-1.jpg"),
-          color: "white"
+          src: require("@/assets/images/method-image.jpg"),
+          color: "black"
         },
         {
           index: 2,
           headline: "Fazer parte dessa Inovação",
-          button: "COMPRAR KIT",
+          button: "Comprar MethodKit",
           to: "Shop",
-          src: require("@/assets/images/mockup-card-1.jpg"),
-          color: "black"
+          src: require("@/assets/images/shop-image.jpg"),
+          color: "white"
         }
       ]
     };
@@ -132,12 +132,6 @@ export default {
   justify-content: center;
   overflow-x: hidden;
   width: 100%;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Lora", serif;
 }
 
 .visuallyhidden {
@@ -342,11 +336,13 @@ h3 {
 }
 
 .slide__headline {
-  font-size: 8.5vmin;
-  font-weight: 600;
+  font-size: 9vmin;
+  line-height: 10vmin;
+  letter-spacing: -5px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-style: italic;
   position: relative;
-  line-height: 63px;
-  margin-bottom: 20px;
 }
 
 .slide__content {
