@@ -17,54 +17,24 @@
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
               <p>
-                O Manifesto Design Ciente visa a defesa e construção de uma
-                prática de design que tenha compromisso com o futuro,
-                alinhando-se ao mundo atual à medida que se posiciona aos novos
-                desafios. A palavra ciente vem de encontro à carga de
-                responsabilidade que o design carrega ao ser o agente
-                transformador e inovador, usando de sua técnica e ciência de
-                métodos e estudos para agir em prol daqueles que impacta. Design
-                é criado por pessoas e para pessoas, então deve se
-                responsabilizar pela segurança e qualidade de vida do ser humano
-                e do meio em que este habita.
-              </p>
-              <p>
-                Para tal, o manifesto sintetiza esse anseio e essa busca em 7
-                pilares principais:
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="StepsBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                odio ligula, ornare non urna id, pellentesque elementum mauris.
-                Vestibulum sapien ipsum, luctus quis semper commodo, pulvinar
-                eget risus. Quisque vel neque libero. Duis posuere est luctus
-                fringilla accumsan. Vestibulum varius bibendum ipsum, nec
-                venenatis velit elementum nec. Nulla tempus diam quis elit
-                tincidunt, quis convallis massa gravida. Morbi sagittis commodo
-                sapien, vel pharetra elit luctus id. Phasellus convallis
-                interdum orci a finibus. Proin maximus ante sit amet ultricies
-                imperdiet. Quisque ac ipsum eros. Morbi pretium porttitor
-                consequat. Sed tempus pellentesque velit non.
+                Diretamente influenciado pelo
+                <router-link
+                  class="no-underline hover:underline text-blue-500 text-lg"
+                  :to="{ name: 'Manifest' }"
+                >
+                  Manifesto Design Ciente
+                </router-link>
+                o <strong class="italic">Connecting Teams Method</strong> leva
+                em conta o papel design e visa auxiliar na comunicação e conexão
+                entre pessoas de uma mesma equipe de trabalho. Buscando um
+                contato mais próximo entre seus participante, mas estando ciente
+                da diversidade de situações e condições dentro das equipas, o CT
+                Method é uma híbrida, podendo ser aplicada virtual ou
+                analogicamente. O kit analógico é composto por cartões e o
+                digital por boards onde os participantes se conhecem, se
+                descobrem e se conectam em busca de um resultado comum. Com base
+                na jornada do herói, a equipe quebra primeiras impressões de
+                forma descontraída e inicia a prática de um pensamento conjunto.
               </p>
             </div>
           </div>
@@ -79,50 +49,6 @@
             <div class="col-span-1 bg-gray-300 h-10"></div>
             <div class="col-span-1 bg-gray-400 h-10"></div>
             <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse tincidunt dui luctus odio congue vestibulum.
-                Vestibulum volutpat risus vitae tellus varius facilisis. Ut
-                scelerisque est turpis, a euismod enim tincidunt in. Proin
-                pharetra nulla vel mi hendrerit aliquet. Curabitur vitae ex
-                congue, ullamcorper leo tristique, efficitur ligula. Vestibulum
-                molestie ipsum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="StepsBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur mollis purus diam, id sagittis leo malesuada sed. Sed
-                quis vulputate justo. Maecenas ipsum nisl, lobortis eget sem.
-              </p>
-            </div>
           </div>
         </div>
       </section>

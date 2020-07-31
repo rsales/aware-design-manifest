@@ -30,7 +30,7 @@
               class="slide__image"
               :alt="item.headline"
               v-lazy="item.img"
-              style="opacity: 1;"
+              style="opacity: 0.4;"
             />
           </div>
 
@@ -88,9 +88,9 @@ export default {
           button: "Ver Manifesto",
           to: "Manifest",
           img: {
-            src: require("@/assets/images/manifest-image.jpg"),
+            src: "https://images.pexels.com/photos/3184304/pexels-photo-3184304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             error: require("@/assets/images/manifest-image.jpg"),
-            loading: require("@/assets/images/manifest-image-small.jpg")
+            loading: "https://images.pexels.com/photos/3184304/pexels-photo-3184304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=50"
           },
           color: "black"
         },
@@ -100,23 +100,23 @@ export default {
           button: "Ver Método",
           to: "Method",
           img: {
-            src: require("@/assets/images/method-image.jpg"),
+            src: "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             error: require("@/assets/images/method-image.jpg"),
-            loading: require("@/assets/images/method-image-small.jpg")
+            loading: "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=50"
           },
           color: "black"
         },
         {
           index: 2,
-          headline: "Fazer parte dessa Inovação",
-          button: "Comprar MethodKit",
+          headline: "Trazer para minha Empresa",
+          button: "Adquirir MethodCT",
           to: "Shop",
           img: {
-            src: require("@/assets/images/shop-image.jpg"),
+            src: "https://images.pexels.com/photos/4668350/pexels-photo-4668350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
             error: require("@/assets/images/shop-image.jpg"),
-            loading: require("@/assets/images/shop-image-small.jpg")
+            loading: "https://images.pexels.com/photos/4668350/pexels-photo-4668350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=50"
           },
-          color: "white"
+          color: "black"
         }
       ]
     };

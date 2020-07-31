@@ -51,18 +51,48 @@
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
+              <h3 class="text-2xl mb-2">
+                1. Educação acima de imposição.
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                odio ligula, ornare non urna id, pellentesque elementum mauris.
-                Vestibulum sapien ipsum, luctus quis semper commodo, pulvinar
-                eget risus. Quisque vel neque libero. Duis posuere est luctus
-                fringilla accumsan. Vestibulum varius bibendum ipsum, nec
-                venenatis velit elementum nec. Nulla tempus diam quis elit
-                tincidunt, quis convallis massa gravida. Morbi sagittis commodo
-                sapien, vel pharetra elit luctus id. Phasellus convallis
-                interdum orci a finibus. Proin maximus ante sit amet ultricies
-                imperdiet. Quisque ac ipsum eros. Morbi pretium porttitor
-                consequat. Sed tempus pellentesque velit non.
+                O design sofre inúmeros preconceitos, seja no âmbito
+                profissional, ou no âmbito social. Aqueles que não conhecem
+                verdadeiramente o que é o design, podem conceber ideias e
+                convicções errôneas a respeito de tal área. Deste modo, o design
+                deve assumir seu papel educador, não somente sobre os demais
+                desafios que enfrenta. Mas também para ensinar à sociedade, seja
+                essa vinculada diretamente ao design (cientes e demais
+                profissionais) ou não (aqueles que consomem design sem ter
+                conhecimento deste fato) de modo gradual, para que todos
+                compreendam a importância e valor do design.
+              </p>
+
+              <h3 class="text-2xl mb-2">
+                2. Design sempre disposto à mudanças
+              </h3>
+              <p>
+                Estando presente em inovações e transformações, o design deve
+                estar sempre apto a modificar-se, ainda que não atue diretamente
+                em áreas correlatas a esse tema. Deve manter-se continuamente
+                vigilante quanto às tendências, garantindo que em todos os
+                projetos e serviços aos quais for aplicado esteja presente
+                garantindo o desenvolvimento conectado ao que é realmente
+                necessário no momento vigente.
+              </p>
+
+              <h3 class="text-2xl mb-2">
+                3. Design feito para pessoas.
+              </h3>
+              <p>
+                Seja direta ou indiretamente, o design está relacionado e
+                conectado às pessoas. Assim, o design deve assumir essa
+                característica e, ainda que se trate sobre produtos e/ou
+                sistemas digitais, sempre que possível deve ser incentivado o
+                contato entre pessoas, sejam elas parte da equipe de
+                profissionais ou consumidores finais/clientes. O design
+                desenvolvido deve ter real ciência do que é importante, evitando
+                assim a produção de serviços/produtos desalinhados à realidade e
+                necessidade das pessoas impactadas.
               </p>
             </div>
           </div>
@@ -83,38 +113,47 @@
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
+              <h3 class="text-2xl mb-2">
+                4. Design tem responsabilidade ambiental
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse tincidunt dui luctus odio congue vestibulum.
-                Vestibulum volutpat risus vitae tellus varius facilisis. Ut
-                scelerisque est turpis, a euismod enim tincidunt in. Proin
-                pharetra nulla vel mi hendrerit aliquet. Curabitur vitae ex
-                congue, ullamcorper leo tristique, efficitur ligula. Vestibulum
-                molestie ipsum.
+                Estando integrado ao processo de criação dos mais diversos
+                produtos e tecnologias, o design deve evoluir aliado ao seu
+                comprometimento com o meio em que vive. Assim, a
+                responsabilidade se torna primordial.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="ImgBlock mt-5 mb-16">
-        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
-          <img
-            alt="illustra 1"
-            src="@/assets/images/illustrations/iso-illustration.svg"
-            class="w-100"
-          />
-        </div>
-      </section>
-
-      <section class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
+              <h3 class="text-2xl mb-2">
+                5. Design tem responsabilidade social
+              </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur mollis purus diam, id sagittis leo malesuada sed. Sed
-                quis vulputate justo. Maecenas ipsum nisl, lobortis eget sem.
+                Estando integrado ao processo de criação dos mais diversos
+                produtos e tecnologias, o design deve evoluir aliado ao seu
+                comprometimento com o meio em que vive. Assim, a
+                responsabilidade se torna primordial.
+              </p>
+
+              <h3 class="text-2xl mb-2">
+                6. Design tem compromisso com a ética
+              </h3>
+              <p>
+                Com seu grande poder comunicador e transformador, o design deve
+                se responsabilizar pela informação que potencializa. É
+                imprescindível estar aliado às questões jurídicas quanto à
+                proteção de dados gerais, direitos autorais e o compromisso com
+                a verdade.
+              </p>
+
+              <h3 class="text-2xl mb-2">
+                7. Design como integração entre áreas
+              </h3>
+              <p>
+                O papel comunicador do design deve agir em prol de conectar
+                pessoas e equipes, para garantir e incentivar o diálogo. A
+                geração de equipes multidisciplinares é essencial para o
+                desenvolvimento de projetos sólidos e fundamentados. Portanto, o
+                design deve favorecer a troca de conhecimento e informações
+                entre pessoas, dando voz à todos e integrando diferentes áreas.
               </p>
             </div>
           </div>
