@@ -37,24 +37,6 @@
         </div>
       </section>
 
-      <!-- <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
-        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
-          <div class="ImageBlock-ImageContainer">
-            <div class="SmartImage SmartImage--inline ImageBlock-Image">
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="SmartImage--inline-Image"
-                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
-                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
-              ></video>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
       <section class="StepsBlock mt-5 mb-16">
         <div class="container mx-auto px-64">
           <div class="grid grid-cols-3 gap-4">
@@ -89,15 +71,13 @@
         </div>
       </section>
 
-      <section class="StepsBlock mt-5 mb-16">
+      <section class="ImgBlock mt-5 mb-16">
         <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
+          <img
+            alt="connectiong teams"
+            src="@/assets/images/illustrations/iso-illustration.svg"
+            class="w-100"
+          />
         </div>
       </section>
 
@@ -131,6 +111,39 @@
         </div>
       </section>
 
+      <section class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur mollis purus diam, id sagittis leo malesuada sed. Sed
+                quis vulputate justo. Maecenas ipsum nisl, lobortis eget sem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Backup Sections -->
+
+      <!-- <section class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
+        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
+          <div class="ImageBlock-ImageContainer">
+            <div class="SmartImage SmartImage--inline ImageBlock-Image">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                playsinline=""
+                class="SmartImage--inline-Image"
+                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
+                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
+              ></video>
+            </div>
+          </div>
+        </div>
+      </section> -->
       <!-- <section class="QuoteBlock QuoteBlock--NoImage">
         <div class="Grid">
           <div class="QuoteBlock-Content">
@@ -162,20 +175,6 @@
           </div>
         </div>
       </section> -->
-
-      <section class="TextBlock TextBlock--wide">
-        <div class="Grid">
-          <div class="TextBlock-Content">
-            <div class="Text TextStyles">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur mollis purus diam, id sagittis leo malesuada sed. Sed
-                quis vulputate justo. Maecenas ipsum nisl, lobortis eget sem.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
     <Footer />
   </div>
