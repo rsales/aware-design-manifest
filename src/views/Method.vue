@@ -178,6 +178,30 @@
         </div>
       </section> -->
     </div>
+
+    <div class="pagination mb-6 px-0 sm:px-2">
+      <div class="grid grid-cols-12 gap-2">
+        <div
+          class="col-span-6 bg-gray-200 hover:bg-gray-300 h-20 flex items-center justify-center"
+        >
+          <router-link :to="{ name: 'Manifest' }">
+            <p class="text-base md:text-3xl">
+              ⬅️ Manifesto Design Ciente
+            </p>
+          </router-link>
+        </div>
+        <div
+          class="col-span-6 bg-gray-400 hover:bg-gray-500 h-20 flex items-center justify-center"
+        >
+          <router-link :to="{ name: 'Shop' }">
+            <p class="text-base md:text-3xl">
+              Comprar o MethodKit ➡️
+            </p>
+          </router-link>
+        </div>
+      </div>
+    </div>
+
     <Footer />
   </div>
 </template>
@@ -203,4 +227,3 @@ export default {
 <style lang="scss">
 @import "@/assets/styles/ideo";
 </style>
-

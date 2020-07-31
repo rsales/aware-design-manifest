@@ -37,15 +37,13 @@
         </div>
       </section>
 
-      <section class="StepsBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
+      <section class="ImgBlock mt-5 mb-16">
+        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
+          <img
+            alt="illustra 1"
+            src="@/assets/images/illustrations/iso-illustration.svg"
+            class="w-100"
+          />
         </div>
       </section>
 
@@ -72,9 +70,9 @@
       </section>
 
       <section class="ImgBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
+        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
           <img
-            alt="connectiong teams"
+            alt="illustra 1"
             src="@/assets/images/illustrations/iso-illustration.svg"
             class="w-100"
           />
@@ -99,15 +97,13 @@
         </div>
       </section>
 
-      <section class="StepsBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
+      <section class="ImgBlock mt-5 mb-16">
+        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
+          <img
+            alt="illustra 1"
+            src="@/assets/images/illustrations/iso-illustration.svg"
+            class="w-100"
+          />
         </div>
       </section>
 
@@ -176,6 +172,21 @@
         </div>
       </section> -->
     </div>
+
+    <div class="pagination mb-6 px-0 sm:px-2">
+      <div class="grid grid-cols-12 gap-2">
+        <div
+          class="col-span-12 bg-gray-400 hover:bg-gray-500 h-20 flex items-center justify-center"
+        >
+          <router-link :to="{ name: 'Method' }">
+            <p class="text-base md:text-3xl">
+              Método Connecting Teams ➡️
+            </p>
+          </router-link>
+        </div>
+      </div>
+    </div>
+
     <Footer />
   </div>
 </template>
