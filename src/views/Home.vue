@@ -360,7 +360,7 @@ export default {
 .slide__headline {
   font-size: 9vmin;
   line-height: 10vmin;
-  letter-spacing: -5px;
+  letter-spacing: -4px;
   font-family: "Lora", serif;
   font-weight: 400;
   font-style: italic;
