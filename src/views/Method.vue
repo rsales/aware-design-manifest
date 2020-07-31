@@ -1,11 +1,11 @@
 <template>
   <div class="method">
+    <navbar :title="title" />
     <div class="PageHeader PageHeader--tertiary">
       <div class="Grid">
         <div class="PageHeader-Content">
           <h1 class="PageHeader-Title">
-            Connecting Teams: Um guia para uma cultura mais próxima, inovadora e
-            sustentável.
+            {{ title }}
           </h1>
         </div>
       </div>
@@ -165,11 +165,22 @@
 </template>
 
 <script>
+import Navbar from "@/components/Navbar.vue";
 export default {
-  name: "Method"
+  name: "Method",
+  components: {
+    Navbar
+  },
+  data() {
+    return {
+      title:
+        "Connecting Teams: Um guia para uma cultura mais próxima, inovadora e sustentável."
+    };
+  }
 };
 </script>
 
 <style lang="scss">
 @import "@/assets/styles/ideo";
 </style>
+
