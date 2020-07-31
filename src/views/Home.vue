@@ -29,7 +29,7 @@
             <img
               class="slide__image"
               :alt="item.headline"
-              :src="item.src"
+              v-lazy="item.img"
               style="opacity: 1;"
             />
           </div>
@@ -77,6 +77,7 @@
 <script>
 export default {
   name: "Home",
+  components: {},
   data() {
     return {
       current: 0,
@@ -86,7 +87,11 @@ export default {
           headline: "Manifesto Design Ciente",
           button: "Ver Manifesto",
           to: "Manifest",
-          src: require("@/assets/images/manifest-image.jpg"),
+          img: {
+            src: require("@/assets/images/manifest-image.jpg"),
+            error: require("@/assets/images/manifest-image.jpg"),
+            loading: require("@/assets/images/manifest-image-small.jpg")
+          },
           color: "black"
         },
         {
@@ -94,7 +99,11 @@ export default {
           headline: "Connecting Teams",
           button: "Ver Método",
           to: "Method",
-          src: require("@/assets/images/method-image.jpg"),
+          img: {
+            src: require("@/assets/images/method-image.jpg"),
+            error: require("@/assets/images/method-image.jpg"),
+            loading: require("@/assets/images/method-image-small.jpg")
+          },
           color: "black"
         },
         {
@@ -102,7 +111,11 @@ export default {
           headline: "Fazer parte dessa Inovação",
           button: "Comprar MethodKit",
           to: "Shop",
-          src: require("@/assets/images/shop-image.jpg"),
+          img: {
+            src: require("@/assets/images/shop-image.jpg"),
+            error: require("@/assets/images/shop-image.jpg"),
+            loading: require("@/assets/images/shop-image-small.jpg")
+          },
           color: "white"
         }
       ]
@@ -155,6 +168,11 @@ export default {
   position: absolute !important;
   white-space: nowrap;
   width: 1px;
+}
+
+img[lazy="loading"] {
+  filter: blur(10px);
+  transition: filter 0.7s;
 }
 
 // =========================
@@ -330,7 +348,7 @@ export default {
 }
 
 .slide__image-wrapper {
-  background-color: var(--color-accent);
+  background-color: #f5f5f5;
   border-radius: 1%;
   height: 100%;
   left: 0%;
