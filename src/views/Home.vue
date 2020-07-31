@@ -22,6 +22,7 @@
             'slide--next': index === current + 1,
             'slide--previous': index === current - 1
           }"
+          @click="clickImage"
           style="--x:0; --y:0;"
         >
           <div class="slide__image-wrapper">
@@ -108,6 +109,13 @@ export default {
     };
   },
   methods: {
+    clickImage(event) {
+      if (event.path[1].className === "slide slide--next") {
+        this.handleNextClick();
+      } else if (event.path[1].className === "slide slide--previous") {
+        this.handlePreviousClick();
+      }
+    },
     handlePreviousClick() {
       if (this.current > 0) {
         this.current = this.current - 1;
