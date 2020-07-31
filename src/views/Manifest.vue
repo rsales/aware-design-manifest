@@ -1,11 +1,11 @@
 <template>
   <div class="manifest">
+    <navbar :title="title" />
     <div class="PageHeader PageHeader--tertiary">
       <div class="Grid">
         <div class="PageHeader-Content">
           <h1 class="PageHeader-Title">
-            Connecting Teams: Um guia para uma cultura mais próxima, inovadora e
-            sustentável.
+            {{ title }}
           </h1>
         </div>
       </div>
@@ -40,23 +40,19 @@
           </div>
         </div>
       </div>
-      <div class="VideoBlock VideoBlock--inline VideoBlock--wide">
-        <div class="VideoBlock-ParagraphContainer"><span>&nbsp;</span></div>
-        <div class="VideoBlock-VideoContainer">
-          <div class="VideoBlock-Video">
-            <div style="width:100%;height:100%">
-              <div style="width:100%;height:100%">
-                <iframe
-                  frameborder="0"
-                  allowfullscreen="1"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  title="YouTube video player"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/a9HjbSAK1qs?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
-                  id="widget2"
-                ></iframe>
-              </div>
+      <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
+        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
+          <div class="ImageBlock-ImageContainer">
+            <div class="SmartImage SmartImage--inline ImageBlock-Image">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                playsinline=""
+                class="SmartImage--inline-Image"
+                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
+                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
+              ></video>
             </div>
           </div>
         </div>
@@ -165,8 +161,18 @@
 </template>
 
 <script>
+import Navbar from "@/components/Navbar.vue";
 export default {
-  name: "Manifest"
+  name: "Manifest",
+  components: {
+    Navbar
+  },
+  data() {
+    return {
+      title:
+        "Manifesto Design Ciente: Um guia para uma cultura mais próxima, inovadora e sustentável."
+    };
+  }
 };
 </script>
 
