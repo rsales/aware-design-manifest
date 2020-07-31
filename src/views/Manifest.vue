@@ -119,7 +119,19 @@
         </div>
       </section>
 
-      <section class="QuoteBlock QuoteBlock--NoImage">
+      <section class="StepsBlock mt-5 mb-16">
+        <div class="container mx-auto px-64">
+          <div class="grid grid-cols-3 gap-4">
+            <div class="col-span-3 bg-gray-100 h-10"></div>
+            <div class="col-span-2 bg-gray-200 h-10"></div>
+            <div class="col-span-1 bg-gray-300 h-10"></div>
+            <div class="col-span-1 bg-gray-400 h-10"></div>
+            <div class="col-span-2 bg-gray-500 h-10"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="QuoteBlock QuoteBlock--NoImage">
         <div class="Grid">
           <div class="QuoteBlock-Content">
             <div class="QuoteBlock-Text">
@@ -149,7 +161,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="TextBlock TextBlock--wide">
         <div class="Grid">
@@ -165,15 +177,18 @@
         </div>
       </section>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Manifest",
   components: {
-    Navbar
+    Navbar,
+    Footer
   },
   data() {
     return {

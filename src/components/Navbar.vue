@@ -6,7 +6,7 @@
           <img
             alt="connectiong teams"
             src="@/assets/images/brand/ct_brand_text.svg"
-            class="h-8"
+            class="h-6"
           />
         </router-link>
       </div>

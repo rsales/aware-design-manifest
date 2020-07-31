@@ -12,56 +12,62 @@
     </div>
 
     <div class="InlineContent">
-      <div class="TextBlock TextBlock--wide">
+      <section class="TextBlock TextBlock--wide">
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
               <p>
-                Apesar de vivermos na era digital, o MethodKit para Desenvolver
-                Equipes é uma ferramenta analógica e digital. Ele foi
-                desenvolvida para ajudar a estruturar e organizar o trabalho em
-                equipe, de maneira a ter mais eficácia, criatividade e
-                resultados. O kit, composto por vários cartões, pode ser usado
-                de diversas maneiras – num workshop de inauguração de projeto,
-                em reflexões com a equipe, sessões de coaching e muito mais.
-                Esta ferramenta reúne o essencial para ter e elaborar ideias,
-                servindo de base para fomentar a criatividade. A criação fica
-                por sua conta.
+                O Manifesto Design Ciente visa a defesa e construção de uma
+                prática de design que tenha compromisso com o futuro,
+                alinhando-se ao mundo atual à medida que se posiciona aos novos
+                desafios. A palavra ciente vem de encontro à carga de
+                responsabilidade que o design carrega ao ser o agente
+                transformador e inovador, usando de sua técnica e ciência de
+                métodos e estudos para agir em prol daqueles que impacta. Design
+                é criado por pessoas e para pessoas, então deve se
+                responsabilizar pela segurança e qualidade de vida do ser humano
+                e do meio em que este habita.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatum doloribus exercitationem consequuntur inventore
-                facilis nisi. Saepe reiciendis quasi impedit cum, assumenda,
-                nesciunt labore tempore qui nobis deserunt est maxime autem.
-                Voluptatum doloribus exercitationem consequuntur inventore
-                facilis nisi.
+                Para tal, o manifesto sintetiza esse anseio e essa busca em 7
+                pilares principais:
               </p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="VideoBlock VideoBlock--inline VideoBlock--wide">
-        <div class="VideoBlock-ParagraphContainer"><span>&nbsp;</span></div>
-        <div class="VideoBlock-VideoContainer">
-          <div class="VideoBlock-Video">
-            <div style="width:100%;height:100%">
-              <div style="width:100%;height:100%">
-                <iframe
-                  frameborder="0"
-                  allowfullscreen="1"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  title="YouTube video player"
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/a9HjbSAK1qs?autoplay=0&amp;mute=0&amp;controls=1&amp;origin=https%3A%2F%2Fwww.ideo.com&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;enablejsapi=1&amp;widgetid=1"
-                  id="widget2"
-                ></iframe>
-              </div>
+      </section>
+
+      <!-- <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
+        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
+          <div class="ImageBlock-ImageContainer">
+            <div class="SmartImage SmartImage--inline ImageBlock-Image">
+              <video
+                autoplay=""
+                loop=""
+                muted=""
+                playsinline=""
+                class="SmartImage--inline-Image"
+                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
+                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
+              ></video>
             </div>
           </div>
         </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
+      </div> -->
+
+      <section class="StepsBlock mt-5 mb-16">
+        <div class="container mx-auto px-64">
+          <div class="grid grid-cols-3 gap-4">
+            <div class="col-span-3 bg-gray-100 h-10"></div>
+            <div class="col-span-2 bg-gray-200 h-10"></div>
+            <div class="col-span-1 bg-gray-300 h-10"></div>
+            <div class="col-span-1 bg-gray-400 h-10"></div>
+            <div class="col-span-2 bg-gray-500 h-10"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="TextBlock TextBlock--wide">
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
@@ -81,25 +87,21 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
-        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
-          <div class="ImageBlock-ImageContainer">
-            <div class="SmartImage SmartImage--inline ImageBlock-Image">
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="SmartImage--inline-Image"
-                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
-                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
-              ></video>
-            </div>
+      </section>
+
+      <section class="StepsBlock mt-5 mb-16">
+        <div class="container mx-auto px-64">
+          <div class="grid grid-cols-3 gap-4">
+            <div class="col-span-3 bg-gray-100 h-10"></div>
+            <div class="col-span-2 bg-gray-200 h-10"></div>
+            <div class="col-span-1 bg-gray-300 h-10"></div>
+            <div class="col-span-1 bg-gray-400 h-10"></div>
+            <div class="col-span-2 bg-gray-500 h-10"></div>
           </div>
         </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
+      </section>
+
+      <section class="TextBlock TextBlock--wide">
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
@@ -115,8 +117,21 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="QuoteBlock QuoteBlock--NoImage">
+      </section>
+
+      <section class="StepsBlock mt-5 mb-16">
+        <div class="container mx-auto px-64">
+          <div class="grid grid-cols-3 gap-4">
+            <div class="col-span-3 bg-gray-100 h-10"></div>
+            <div class="col-span-2 bg-gray-200 h-10"></div>
+            <div class="col-span-1 bg-gray-300 h-10"></div>
+            <div class="col-span-1 bg-gray-400 h-10"></div>
+            <div class="col-span-2 bg-gray-500 h-10"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="QuoteBlock QuoteBlock--NoImage">
         <div class="Grid">
           <div class="QuoteBlock-Content">
             <div class="QuoteBlock-Text">
@@ -146,8 +161,9 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="TextBlock TextBlock--wide">
+      </section> -->
+
+      <section class="TextBlock TextBlock--wide">
         <div class="Grid">
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
@@ -159,17 +175,20 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "Method",
   components: {
-    Navbar
+    Navbar,
+    Footer
   },
   data() {
     return {
