@@ -4,7 +4,7 @@
       <div class="brand__nav">
         <img
           alt="connectiong teams"
-          src="@/assets/images/brand/ct_brand_icon.svg"
+          src="@/assets/images/brand/ct_brand_text.svg"
         />
       </div>
       <ul
@@ -193,11 +193,11 @@ export default {
   display: flex;
   justify-content: center;
   position: absolute;
-  bottom: calc(100% + 1.25rem);
+  bottom: calc(100% + 2rem);
   width: 100%;
 
   img {
-    height: 62px;
+    height: 2rem;
   }
 }
 
