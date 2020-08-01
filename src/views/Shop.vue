@@ -25,9 +25,32 @@
             <h3 class="text-gray-700 uppercase text-lg">
               Connecting Teams MethodKit
             </h3>
-            <span class="text-gray-500 mt-3">$125</span>
+            <span class="text-gray-500 mt-3" style="font-family: 'Lato'">
+              <strong class="text-primary">R$ 129,90</strong> <br />
+              <span>ou 6 x R$ 23,97</span>
+            </span>
             <hr class="my-3" />
             <div class="mt-2">
+              <h6 class="text-base mb-2" style="font-family: 'Lato'">
+                Especificações Técnicas
+              </h6>
+              <p class="text-sm mb-5 pr-10" style="font-family: 'Lato'">
+                75 Cards digitais nos formatos + Guia de Utilização (PDF) +
+                Projeto disponível no <strong>MIRO</strong> com o
+                <strong>Canvas</strong> podendo ser trabalhado digitalmente ou
+                presencial.
+              </p>
+              <ul
+                class="text-sm text-gray-600 mb-5"
+                style="font-family: 'Lato'"
+              >
+                <li>
+                  • Código do produto: 74BEF8
+                </li>
+                <li>
+                  • Frete: grátis
+                </li>
+              </ul>
               <label class="text-gray-700 text-sm" for="count">Count:</label>
               <div class="flex items-center mt-1">
                 <button
@@ -118,8 +141,8 @@
           <p class="mt-2 text-gray-600">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
             expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
-            enim reprehenderit nisi, accusamus delectus nihil quis facere in modi
-            ratione libero!
+            enim reprehenderit nisi, accusamus delectus nihil quis facere in
+            modi ratione libero!
           </p>
         </div>
         <div class="flex justify-between items-center mt-4">
@@ -148,14 +171,16 @@
           >
         </div>
         <div class="mt-2">
-          <a class="text-2xl text-gray-700 font-bold hover:text-gray-600" href="#"
+          <a
+            class="text-2xl text-gray-700 font-bold hover:text-gray-600"
+            href="#"
             >Accessibility tools for designers and developers</a
           >
           <p class="mt-2 text-gray-600">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
             expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
-            enim reprehenderit nisi, accusamus delectus nihil quis facere in modi
-            ratione libero!
+            enim reprehenderit nisi, accusamus delectus nihil quis facere in
+            modi ratione libero!
           </p>
         </div>
         <div class="flex justify-between items-center mt-4">
@@ -184,14 +209,16 @@
           >
         </div>
         <div class="mt-2">
-          <a class="text-2xl text-gray-700 font-bold hover:text-gray-600" href="#"
+          <a
+            class="text-2xl text-gray-700 font-bold hover:text-gray-600"
+            href="#"
             >Accessibility tools for designers and developers</a
           >
           <p class="mt-2 text-gray-600">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
             expedita dicta totam aspernatur doloremque. Excepturi iste iusto eos
-            enim reprehenderit nisi, accusamus delectus nihil quis facere in modi
-            ratione libero!
+            enim reprehenderit nisi, accusamus delectus nihil quis facere in
+            modi ratione libero!
           </p>
         </div>
         <div class="flex justify-between items-center mt-4">
