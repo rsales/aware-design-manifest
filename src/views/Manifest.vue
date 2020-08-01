@@ -217,57 +217,6 @@
           </div>
         </div>
       </section>
-
-      <!-- Backup Sections -->
-
-      <!-- <section class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
-        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
-          <div class="ImageBlock-ImageContainer">
-            <div class="SmartImage SmartImage--inline ImageBlock-Image">
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="SmartImage--inline-Image"
-                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
-                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
-              ></video>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- <section class="QuoteBlock QuoteBlock--NoImage">
-        <div class="Grid">
-          <div class="QuoteBlock-Content">
-            <div class="QuoteBlock-Text">
-              <span>
-                <p>
-                  <em>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer a convallis ex. Pellentesque convallis arcu id
-                    consequat consequat. Fusce ornare semper egestas. Donec vel
-                    ornare tellus. Cras feugiat tincidunt gravida. Aliquam.
-                  </em>
-                </p>
-              </span>
-            </div>
-            <div class="QuoteBlock-Author">
-              <span>
-                <p>
-                  Hernan Carranza, Chief Innovation Officer,
-                  <a
-                    href="https://www.ideo.com/case-study/launching-an-innovation-lab-to-benefit-peruvians"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    >Intercorp
-                  </a>
-                </p>
-              </span>
-            </div>
-          </div>
-        </div>
-      </section> -->
     </div>
 
     <div class="pagination mb-6 px-0 sm:px-2">

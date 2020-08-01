@@ -96,7 +96,7 @@
 
     <section class="container mx-auto mt-24 px-16">
       <h3 class="text-3xl text-center">
-        Comantários de quem já faz parte...
+        Comentários de quem já faz parte...
       </h3>
       <div
         class="max-w-4xl px-10 my-4 py-6 bg-white rounded-lg shadow-md mx-auto mb-10"

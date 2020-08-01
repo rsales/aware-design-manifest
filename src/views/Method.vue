@@ -41,7 +41,7 @@
         </div>
       </section>
 
-      <section class="QuoteBlock QuoteBlock--NoImage">
+      <!-- <section class="QuoteBlock QuoteBlock--NoImage">
         <div class="Grid">
           <div class="QuoteBlock-Content">
             <div class="QuoteBlock-Text">
@@ -71,7 +71,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="ImgBlock mt-5 mb-16">
         <div
@@ -90,39 +90,98 @@
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
               <h3 class="text-2xl mb-2">
-                <img
-                  alt="icon 6"
-                  src="@/assets/images/icons/6.svg"
-                  class="h-16"
-                />
-                6. Design tem compromisso com a ética
+                Passo 1. Imersão
               </h3>
               <p>
-                Com seu grande poder comunicador e transformador, o design deve
-                se responsabilizar pela informação que potencializa. É
-                imprescindível estar aliado às questões jurídicas quanto à
-                proteção de dados gerais, direitos autorais e o compromisso com
-                a verdade.
+                Apresente o desafio a ser superado. O CT Method possui uma série
+                de vídeos de imersão com desafios base, mas qualquer desafio
+                pode ser utilizado pelo facilitador da ferramenta.
               </p>
 
               <h3 class="text-2xl mt-10 mb-2">
-                <img
-                  alt="icon 7"
-                  src="@/assets/images/icons/7.svg"
-                  class="h-16"
-                />
-                7. Design como integração entre áreas
+                Passo 2. Conhecendo o Time
               </h3>
               <p>
-                O papel comunicador do design deve agir em prol de conectar
-                pessoas e equipes, para garantir e incentivar o diálogo. A
-                geração de equipes multidisciplinares é essencial para o
-                desenvolvimento de projetos sólidos e fundamentados. Portanto, o
-                design deve favorecer a troca de conhecimento e informações
-                entre pessoas, dando voz à todos e integrando diferentes áreas.
+                É essencial em uma equipe que seus participantes saibam escutar
+                e sejam comunicativos. Para que haja o equilíbrio dessas
+                qualidades, as apresentações são feitas em dupla, mas quem
+                preenche o perfil de cada um, é o colega que o ouviu.
+              </p>
+
+              <h3 class="text-2xl mb-2">
+                Passo 3. Criando estratégias
+              </h3>
+              <p>
+                Estratégias são fundamentais para se enfrentar um desafio.
+                Vínculos de confiança são criados quando conhecemos as
+                habilidades de todos e definimos em qual ponto cada um poderá
+                ajudar o time.
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="ImgBlock mt-5 mb-16">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
+          <img
+            alt="image wireframe"
+            src="@/assets/images/mockups/mockup-card-1.jpg"
+            class="w-full"
+          />
+        </div>
+      </section>
+
+      <section class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <h3 class="text-2xl mt-10 mb-2">
+                Passo 4. Aventura
+              </h3>
+              <p>
+                O plano deve ser executado. Tenha uma visão geral de todas as
+                habilidades da equipe e veja qual o melhor momento em que cada
+                um poderá agir. A flexibilidade é o que manda: todos têm algo a
+                acrescentar, ainda que o plano original precise ser alterado.
+              </p>
+
+              <h3 class="text-2xl mt-10 mb-2">
+                Passo 5. Esperança
+              </h3>
+              <p>
+                A batalha foi vencida com sucesso. Todos desempenharam seu papel
+                para a conclusão da missão. Agora é o momento de relembrar o que
+                passaram juntos! Analisem e compartilhem qual foi a melhor parte
+                da jornada ou uma palavra que defina o fator decisivo para o
+                sucesso da missão.
+              </p>
+
+              <h3 class="text-2xl mt-10 mb-2">
+                Passo 6. Tudo acaba bem
+              </h3>
+              <p>
+                Você passou de fase e agora pode assumir desafios maiores junto
+                à sua equipe! Celebre esse momento compartilhando com seus
+                amigos. Além da certificação, agora você tem seu selo do CT
+                Method no Linkedin.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="ImgBlock mt-5 mb-16">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
+          <img
+            alt="image wireframe"
+            src="@/assets/images/sprint-design.jpg"
+            class="w-full"
+          />
         </div>
       </section>
     </div>
