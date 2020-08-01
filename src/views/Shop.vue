@@ -35,7 +35,7 @@
                 Especificações Técnicas
               </h6>
               <p class="text-sm mb-5 pr-10" style="font-family: 'Lato'">
-                75 Cards digitais nos formatos + Guia de Utilização (PDF) +
+                30 Cards digitais nos formatos + Guia de Utilização (PDF) +
                 Projeto disponível no <strong>MIRO</strong> com o
                 <strong>Canvas</strong> podendo ser trabalhado digitalmente ou
                 presencial.
