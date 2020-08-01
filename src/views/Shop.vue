@@ -69,7 +69,7 @@
               <button
                 class="px-8 py-2 bg-primary text-white text-sm font-medium rounded hover:bg-black focus:outline-none focus:bg-indigo-500"
               >
-                Order Now
+                Comprar agora
               </button>
               <button
                 class="mx-2 text-gray-600 border rounded-md p-2 hover:bg-gray-200 focus:outline-none"
@@ -110,7 +110,9 @@
           >
         </div>
         <div class="mt-2">
-          <a class="text-2xl text-gray-700 font-bold hover:text-gray-600" href="#"
+          <a
+            class="text-2xl text-gray-700 font-bold hover:text-gray-600"
+            href="#"
             >Accessibility tools for designers and developers</a
           >
           <p class="mt-2 text-gray-600">
