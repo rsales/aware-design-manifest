@@ -1,6 +1,6 @@
 <template>
   <div class="method">
-    <navbar :title="title" />
+    <navbar :title="title" :title-xs="titleXs" />
     <div class="PageHeader PageHeader--tertiary">
       <div class="Grid">
         <div class="PageHeader-Content">
@@ -41,15 +41,15 @@
         </div>
       </section>
 
-      <section class="StepsBlock mt-5 mb-16">
-        <div class="container mx-auto px-64">
-          <div class="grid grid-cols-3 gap-4">
-            <div class="col-span-3 bg-gray-100 h-10"></div>
-            <div class="col-span-2 bg-gray-200 h-10"></div>
-            <div class="col-span-1 bg-gray-300 h-10"></div>
-            <div class="col-span-1 bg-gray-400 h-10"></div>
-            <div class="col-span-2 bg-gray-500 h-10"></div>
-          </div>
+      <section class="ImgBlock mt-5 mb-16">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
+          <img
+            alt="illustra 1"
+            src="@/assets/images/mockups/mockup-1.jpg"
+            class="w-100"
+          />
         </div>
       </section>
 
@@ -144,7 +144,8 @@ export default {
   data() {
     return {
       title:
-        "Connecting Teams: Um guia para uma cultura mais próxima, inovadora e sustentável."
+        "Connecting Teams: Um guia para uma cultura mais próxima, inovadora e sustentável.",
+      titleXs: "Connecting Teams"
     };
   }
 };

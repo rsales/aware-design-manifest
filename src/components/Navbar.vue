@@ -10,10 +10,13 @@
           />
         </router-link>
       </div>
-      <h6
-        class="title-navbar opacity-0 hidden sm:hidden md:block lg:block xl:block"
-      >
-        – {{ title }} –
+      <h6 class="title-navbar opacity-0">
+        <span class="hidden sm:hidden md:block lg:block xl:block">
+          – {{ title }} –
+        </span>
+        <span class="block sm:block md:hidden lg:hidden xl:hidden">
+          – {{ titleXs }} –
+        </span>
       </h6>
     </nav>
   </div>
@@ -23,6 +26,10 @@
 export default {
   props: {
     title: {
+      type: String,
+      required: true
+    },
+    titleXs: {
       type: String,
       required: true
     }

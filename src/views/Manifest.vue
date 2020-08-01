@@ -1,6 +1,6 @@
 <template>
   <div class="manifest">
-    <navbar :title="title" />
+    <navbar :title="title" :title-xs="titleXs" />
     <div class="PageHeader PageHeader--tertiary">
       <div class="Grid">
         <div class="PageHeader-Content">
@@ -38,11 +38,11 @@
       </section>
 
       <section class="ImgBlock mt-5 mb-16">
-        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
+        <div class="container mx-auto px-0 sm:px-0 md:px-10 lg:px-10 xl:px-10">
           <img
             alt="illustra 1"
-            src="@/assets/images/illustrations/iso-illustration.svg"
-            class="w-100"
+            src="@/assets/images/illustrations/pilares.svg"
+            class="w-full"
           />
         </div>
       </section>
@@ -52,6 +52,11 @@
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
               <h3 class="text-2xl mb-2">
+                <img
+                  alt="icon 1"
+                  src="@/assets/images/icons/1.svg"
+                  class="h-16"
+                />
                 1. Educação acima de imposição.
               </h3>
               <p>
@@ -67,7 +72,12 @@
                 compreendam a importância e valor do design.
               </p>
 
-              <h3 class="text-2xl mb-2">
+              <h3 class="text-2xl mt-10 mb-2">
+                <img
+                  alt="icon 2"
+                  src="@/assets/images/icons/2.svg"
+                  class="h-20"
+                />
                 2. Design sempre disposto à mudanças
               </h3>
               <p>
@@ -80,7 +90,12 @@
                 necessário no momento vigente.
               </p>
 
-              <h3 class="text-2xl mb-2">
+              <h3 class="text-2xl mt-10 mb-2">
+                <img
+                  alt="icon 3"
+                  src="@/assets/images/icons/3.svg"
+                  class="h-16"
+                />
                 3. Design feito para pessoas.
               </h3>
               <p>
@@ -100,11 +115,13 @@
       </section>
 
       <section class="ImgBlock mt-5 mb-16">
-        <div class="container mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-48">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
           <img
             alt="illustra 1"
             src="@/assets/images/illustrations/iso-illustration.svg"
-            class="w-100"
+            class="w-full"
           />
         </div>
       </section>
@@ -114,6 +131,12 @@
           <div class="TextBlock-Content">
             <div class="Text TextStyles">
               <h3 class="text-2xl mb-2">
+                <img
+                  alt="icon 4"
+                  src="@/assets/images/icons/4.svg"
+                  class="h-20"
+                  style="margin-left: -18px;"
+                />
                 4. Design tem responsabilidade ambiental
               </h3>
               <p>
@@ -123,7 +146,12 @@
                 responsabilidade se torna primordial.
               </p>
 
-              <h3 class="text-2xl mb-2">
+              <h3 class="text-2xl mt-10 mb-2">
+                <img
+                  alt="icon 5"
+                  src="@/assets/images/icons/5.svg"
+                  class="h-16"
+                />
                 5. Design tem responsabilidade social
               </h3>
               <p>
@@ -132,8 +160,33 @@
                 comprometimento com o meio em que vive. Assim, a
                 responsabilidade se torna primordial.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="ImgBlock mt-5 mb-16">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
+          <img
+            alt="image wireframe"
+            src="@/assets/images/design-wireframe.jpg"
+            class="w-full"
+          />
+        </div>
+      </section>
+
+      <section class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
               <h3 class="text-2xl mb-2">
+                <img
+                  alt="icon 6"
+                  src="@/assets/images/icons/6.svg"
+                  class="h-16"
+                />
                 6. Design tem compromisso com a ética
               </h3>
               <p>
@@ -144,7 +197,12 @@
                 a verdade.
               </p>
 
-              <h3 class="text-2xl mb-2">
+              <h3 class="text-2xl mt-10 mb-2">
+                <img
+                  alt="icon 7"
+                  src="@/assets/images/icons/7.svg"
+                  class="h-16"
+                />
                 7. Design como integração entre áreas
               </h3>
               <p>
@@ -242,7 +300,8 @@ export default {
   data() {
     return {
       title:
-        "Manifesto Design Ciente: contruindo uma design que tenha compromisso com o futuro."
+        "Manifesto Design Ciente: contruindo um design que tenha compromisso com o futuro.",
+      titleXs: "Manifesto Design Ciente"
     };
   }
 };

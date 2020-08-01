@@ -178,7 +178,7 @@ img[lazy="loading"] {
 // =========================
 
 .icon {
-  fill: var(--color-primary);
+  fill: black;
   width: 100%;
 }
 
@@ -187,10 +187,10 @@ img[lazy="loading"] {
 // =========================
 
 .btn {
-  background-color: var(--color-primary);
+  background-color: #fbad18;
   border: none;
   border-radius: 0.125rem;
-  color: white;
+  color: black;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
@@ -198,7 +198,7 @@ img[lazy="loading"] {
   font-family: "lato", serif;
 
   &:focus {
-    outline-color: var(--color-focus);
+    outline-color: black;
     outline-offset: 2px;
     outline-style: solid;
     outline-width: 3px;
@@ -249,7 +249,7 @@ img[lazy="loading"] {
     width: var(--size);
 
     &:focus {
-      border-color: var(--color-focus);
+      border-color: #fbad18;
       outline: none;
     }
 
