@@ -17,12 +17,14 @@
           <div class="w-full h-64 md:w-1/2 lg:h-96">
             <img
               class="h-full w-full rounded-md object-cover max-w-lg mx-auto"
-              src="https://images.unsplash.com/photo-1578262825743-a4e402caab76?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-              alt="Nike Air"
+              src="@/assets/images/mockups/mockup-2.jpg"
+              alt="Method CT"
             />
           </div>
           <div class="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-            <h3 class="text-gray-700 uppercase text-lg">Nike Air</h3>
+            <h3 class="text-gray-700 uppercase text-lg">
+              Connecting Teams MethodKit
+            </h3>
             <span class="text-gray-500 mt-3">$125</span>
             <hr class="my-3" />
             <div class="mt-2">
@@ -45,7 +47,7 @@
                     ></path>
                   </svg>
                 </button>
-                <span class="text-gray-700 text-lg mx-2">20</span>
+                <span class="text-gray-700 text-lg mx-2">02</span>
                 <button
                   class="text-gray-500 focus:outline-none focus:text-gray-600"
                 >
@@ -63,23 +65,9 @@
                 </button>
               </div>
             </div>
-            <div class="mt-3">
-              <label class="text-gray-700 text-sm" for="count">Color:</label>
-              <div class="flex items-center mt-1">
-                <button
-                  class="h-5 w-5 rounded-full bg-blue-600 border-2 border-blue-200 mr-2 focus:outline-none"
-                ></button>
-                <button
-                  class="h-5 w-5 rounded-full bg-teal-600 mr-2 focus:outline-none"
-                ></button>
-                <button
-                  class="h-5 w-5 rounded-full bg-pink-600 mr-2 focus:outline-none"
-                ></button>
-              </div>
-            </div>
             <div class="flex items-center mt-6">
               <button
-                class="px-8 py-2 bg-indigo-600 text-white text-sm font-medium rounded hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500"
+                class="px-8 py-2 bg-primary text-white text-sm font-medium rounded hover:bg-black focus:outline-none focus:bg-indigo-500"
               >
                 Order Now
               </button>

@@ -41,38 +41,7 @@
         </div>
       </section>
 
-      <section class="ImgBlock mt-5 mb-16">
-        <div
-          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
-        >
-          <img
-            alt="illustra 1"
-            src="@/assets/images/mockups/mockup-1.jpg"
-            class="w-100"
-          />
-        </div>
-      </section>
-
-      <!-- Backup Sections -->
-
-      <!-- <section class="ImageBlock ImageBlock--wide ImageBlockModifyer--center">
-        <div class="ImageBlock-InlineItemsContainer ImageBlock--NoCaption">
-          <div class="ImageBlock-ImageContainer">
-            <div class="SmartImage SmartImage--inline ImageBlock-Image">
-              <video
-                autoplay=""
-                loop=""
-                muted=""
-                playsinline=""
-                class="SmartImage--inline-Image"
-                src="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=mp4&amp;w=500"
-                poster="https://churchill-next.imgix.net/images/posts/cd_3.gif?dpr=1&amp;fit=max&amp;fm=jpg&amp;w=500"
-              ></video>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- <section class="QuoteBlock QuoteBlock--NoImage">
+      <section class="QuoteBlock QuoteBlock--NoImage">
         <div class="Grid">
           <div class="QuoteBlock-Content">
             <div class="QuoteBlock-Text">
@@ -102,7 +71,60 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
+
+      <section class="ImgBlock mt-5 mb-16">
+        <div
+          class="container w-full xl:w-9/12 mx-auto px-5 sm:px-10 md:px-48 lg:px-64 xl:px-64"
+        >
+          <img
+            alt="illustra 1"
+            src="@/assets/images/mockups/mockup-1.jpg"
+            class="w-100"
+          />
+        </div>
+      </section>
+
+      <section class="TextBlock TextBlock--wide">
+        <div class="Grid">
+          <div class="TextBlock-Content">
+            <div class="Text TextStyles">
+              <h3 class="text-2xl mb-2">
+                <img
+                  alt="icon 6"
+                  src="@/assets/images/icons/6.svg"
+                  class="h-16"
+                />
+                6. Design tem compromisso com a ética
+              </h3>
+              <p>
+                Com seu grande poder comunicador e transformador, o design deve
+                se responsabilizar pela informação que potencializa. É
+                imprescindível estar aliado às questões jurídicas quanto à
+                proteção de dados gerais, direitos autorais e o compromisso com
+                a verdade.
+              </p>
+
+              <h3 class="text-2xl mt-10 mb-2">
+                <img
+                  alt="icon 7"
+                  src="@/assets/images/icons/7.svg"
+                  class="h-16"
+                />
+                7. Design como integração entre áreas
+              </h3>
+              <p>
+                O papel comunicador do design deve agir em prol de conectar
+                pessoas e equipes, para garantir e incentivar o diálogo. A
+                geração de equipes multidisciplinares é essencial para o
+                desenvolvimento de projetos sólidos e fundamentados. Portanto, o
+                design deve favorecer a troca de conhecimento e informações
+                entre pessoas, dando voz à todos e integrando diferentes áreas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div class="pagination mb-6 px-0 sm:px-2">
