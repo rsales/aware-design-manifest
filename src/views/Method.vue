@@ -12,6 +12,16 @@
     </div>
 
     <div class="InlineContent">
+      <section class="ImgBlock mt-2 mb-16">
+        <div
+          class="container w-full mx-auto px-5 sm:px-10 md:px-10 lg:px-40 xl:px-64"
+        >
+          <div class="bg-gray-300">
+            <img alt="illustra 1" src="@/assets/images/time.png" class="w-full" />
+          </div>
+        </div>
+      </section>
+
       <section class="TextBlock TextBlock--wide">
         <div class="Grid">
           <div class="TextBlock-Content">
@@ -80,7 +90,7 @@
           <img
             alt="illustra 1"
             src="@/assets/images/mockups/mockup-1.jpg"
-            class="w-100"
+            class="w-full"
           />
         </div>
       </section>
