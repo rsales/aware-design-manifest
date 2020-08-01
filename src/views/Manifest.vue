@@ -273,7 +273,7 @@
     <div class="pagination mb-6 px-0 sm:px-2">
       <div class="grid grid-cols-12 gap-2">
         <div
-          class="col-span-12 bg-gray-400 hover:bg-gray-500 h-20 flex items-center justify-center"
+          class="col-span-12 bg-gray-400 hover:bg-yellow-400 h-20 flex items-center justify-center"
         >
           <router-link :to="{ name: 'Method' }">
             <p class="text-base md:text-3xl">

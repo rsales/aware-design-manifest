@@ -117,7 +117,7 @@
           </router-link>
         </div>
         <div
-          class="col-span-6 bg-gray-400 hover:bg-gray-500 h-20 flex items-center justify-center"
+          class="col-span-6 bg-gray-400 hover:bg-yellow-400 h-20 flex items-center justify-center"
         >
           <router-link :to="{ name: 'Shop' }">
             <p class="text-base md:text-3xl">
