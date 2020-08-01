@@ -106,7 +106,7 @@
       </div>
     </main>
 
-    <section class="container mx-auto mt-20 px-16">
+    <section class="container mx-auto mt-24 px-16">
       <h3 class="text-3xl text-center">
         Comantários de quem já faz parte...
       </h3>
